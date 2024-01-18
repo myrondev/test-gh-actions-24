@@ -28,7 +28,7 @@ jobs:
       - name: Run a one-line script before
         run: node -v
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v2
         with:
           node-version: 16
 
